@@ -1,25 +1,18 @@
 {
-  "name": "wexa-developer-skill-explorer",
-  "version": "0.1.0",
+  "name": "wexa-backend-Application",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "dev:server": "node --watch server/index.js",
-    "build": "vite build",
+    "dev": "node --watch server/index.js",
     "start": "node server/index.js",
-    "seed": "node server/seed.js",
-    "preview": "vite preview"
+    "seed": "node server/seed.js"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
     "cors": "latest",
     "dotenv": "latest",
     "express": "latest",
-    "neo4j-driver": "latest",
-    "vite": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "neo4j-driver": "latest"
   },
   "devDependencies": {}
 }
