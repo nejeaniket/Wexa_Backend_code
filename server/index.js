@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: [clientOrigin, "http://localhost:5173", "http://localhost:5174"],
+    origin: [clientOrigin, "http://wexagraph.netlify.app"],
   }),
 );
 app.use(express.json());
